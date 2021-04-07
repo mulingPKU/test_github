@@ -40,7 +40,6 @@ public class TestJavaAdapter{
 		
 		NativeJavaObject aJavaObject=(NativeJavaObject)cx.evaluateString(topScope, testCode,"", 1, null);
 		
-		
 		Method overrideMethod=null;
 		try {
 			overrideMethod=aJavaObject.unwrap().getClass().getDeclaredMethod("methodInC", String.class);
