@@ -3,7 +3,6 @@ package org.mozilla.javascript.tests;
 import static org.junit.Assert.assertNotNull;
 import java.lang.reflect.Method;
 import java.util.Arrays;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -46,6 +45,7 @@ public class TestJavaAdapter{
 		}
 		
 		assertNotNull("Failed to override method 'public int methodInC(String str)' from multi-layer interface C"
-				     	,overrideMethod);	
+				     	,overrideMethod);
+		
 	}
 }
