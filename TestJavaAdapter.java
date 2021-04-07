@@ -11,7 +11,6 @@ import org.mozilla.javascript.Context;
 import org.mozilla.javascript.NativeJavaObject;
 import org.mozilla.javascript.Scriptable;
 
-
 public class TestJavaAdapter{
 	Context cx=null;
 	Scriptable topScope=null;
